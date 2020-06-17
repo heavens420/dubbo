@@ -1,0 +1,13 @@
+
+
+dubbo:
+  application:
+    name: dubbo-consumer
+    id: dubbo-consumer
+  registry:
+    #不能用域名 否则连接失败
+    address: 47.115.3.199:8101
+    protocol: zookeeper
+
+server:
+  port: 8017

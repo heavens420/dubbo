@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: dubbo-provider
+    id: dubbo-provider
+  registry:
+    #不能用域名 否则连接失败
+    address: 47.115.3.199:8101
+    protocol: zookeeper
+  protocol:
+    name: dubbo
+    port: 8009
+server:
+  port: 8018
